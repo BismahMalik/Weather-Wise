@@ -21,27 +21,26 @@ You need to have the following installed on your machine:
    cd weather-app
    
 Install the required dependencies:
-```bash
-npm install
+**npm install**
 
 Create a .env file in the root directory of the project and add your API key and API host:
- ```bash
-API_KEY=YOUR_RAPIDAPI_KEY
-API_HOST=weather-by-api-ninjas.p.rapidapi.com
+ 
+**API_KEY=YOUR_RAPIDAPI_KEY
+API_HOST=weather-by-api-ninjas.p.rapidapi.com**
 
 Replace YOUR_RAPIDAPI_KEY with your actual API key from the Weather API by API Ninjas.
 
 **Running the App**
 
 To start the server and run the app, use the following command:
- ```bash
-npm start
+ 
+**npm start**
 
-The server will start running on http://localhost:3000.
+The server will start running on **http://localhost:3000.**
 
 **Usage**
 
-1. Open your web browser and go to http://localhost:3000.
+1. Open your web browser and go to **http://localhost:3000.**
 2. Enter the name of the city for which you want to get the weather information.
 3. Click the "Get Weather" button.
 4. The app will fetch weather data for the specified city and display it on the page.
@@ -67,12 +66,13 @@ The client-side code is located in the public/index.html and public/index.js fil
 
 You can deploy the Weather App to a hosting platform of your choice. Some popular options include:
 
-1.Heroku
+**1.Heroku
 2.Netlify
 3.Vercel
 4.AWS Elastic Beanstalk
-5.DigitalOcean
-6.Before deploying, make sure to set the environment variables (API_KEY and API_HOST) on the hosting platform to secure your API key.
+5.DigitalOcean**
+
+Before deploying, make sure to set the environment variables (API_KEY and API_HOST) on the hosting platform to secure your API key.
 
 **Contributing**
 
