@@ -21,11 +21,11 @@ You need to have the following installed on your machine:
    cd weather-app
    
 Install the required dependencies:
-   ```bash
+```bash
 npm install
 
 Create a .env file in the root directory of the project and add your API key and API host:
-   ```bash
+ ```bash
 API_KEY=YOUR_RAPIDAPI_KEY
 API_HOST=weather-by-api-ninjas.p.rapidapi.com
 
@@ -34,7 +34,7 @@ Replace YOUR_RAPIDAPI_KEY with your actual API key from the Weather API by API N
 **Running the App**
 
 To start the server and run the app, use the following command:
-   ```bash
+ ```bash
 npm start
 
 The server will start running on http://localhost:3000.
