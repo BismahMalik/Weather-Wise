@@ -1,0 +1,18 @@
+const mongoose = require("mongoose");
+
+const WeatherSchema = mongoose.Schema({
+    cloud_pct: {
+    type: String,
+    required: true
+  },
+  temp: {
+    type: String,
+    required: true
+  }
+}, {
+  timestamps: true
+});
+
+const Weather = mongoose.model('Weather', WeatherSchema);
+
+module.exports = Weather;
