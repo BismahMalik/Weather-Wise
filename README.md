@@ -21,25 +21,30 @@ You need to have the following installed on your machine:
    cd weather-app
    
 Install the required dependencies:
+   ```bash
 npm install
 
 Create a .env file in the root directory of the project and add your API key and API host:
+   ```bash
 API_KEY=YOUR_RAPIDAPI_KEY
 API_HOST=weather-by-api-ninjas.p.rapidapi.com
+
 Replace YOUR_RAPIDAPI_KEY with your actual API key from the Weather API by API Ninjas.
 
 **Running the App**
 
 To start the server and run the app, use the following command:
+   ```bash
 npm start
+
 The server will start running on http://localhost:3000.
 
 **Usage**
 
-Open your web browser and go to http://localhost:3000.
-Enter the name of the city for which you want to get the weather information.
-Click the "Get Weather" button.
-The app will fetch weather data for the specified city and display it on the page.
+1. Open your web browser and go to http://localhost:3000.
+2. Enter the name of the city for which you want to get the weather information.
+3. Click the "Get Weather" button.
+4. The app will fetch weather data for the specified city and display it on the page.
 
 **Architecture**
 
@@ -50,6 +55,8 @@ The Weather App is built using a server-client architecture.
 The server is implemented using Node.js and Express. It serves static HTML, CSS, and JavaScript files to the client and handles API requests to fetch weather data from the Weather API by API Ninjas.
 
 The server-side code is located in the server.js file. It uses the axios library to make HTTP requests to the external API.
+
+
 **Client-side**
 
 The client-side is implemented using HTML, CSS, and JavaScript. The client-side code fetches user input, sends requests to the server to get weather data for a specific city, and updates the page with the fetched data.
