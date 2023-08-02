@@ -21,12 +21,13 @@ You need to have the following installed on your machine:
    cd weather-app
    
 Install the required dependencies:
+
 **npm install**
 
 Create a .env file in the root directory of the project and add your API key and API host:
  
-**API_KEY=YOUR_RAPIDAPI_KEY
-API_HOST=weather-by-api-ninjas.p.rapidapi.com**
+**API_KEY=YOUR_RAPIDAPI_KEY**
+**API_HOST=weather-by-api-ninjas.p.rapidapi.com**
 
 Replace YOUR_RAPIDAPI_KEY with your actual API key from the Weather API by API Ninjas.
 
@@ -66,11 +67,11 @@ The client-side code is located in the public/index.html and public/index.js fil
 
 You can deploy the Weather App to a hosting platform of your choice. Some popular options include:
 
-**1.Heroku
-2.Netlify
-3.Vercel
-4.AWS Elastic Beanstalk
-5.DigitalOcean**
+**1.Heroku**
+**2.Netlify**
+**3.Vercel**
+**4.AWS Elastic Beanstalk**
+**5.DigitalOcean**
 
 Before deploying, make sure to set the environment variables (API_KEY and API_HOST) on the hosting platform to secure your API key.
 
