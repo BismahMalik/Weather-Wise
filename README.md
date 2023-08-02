@@ -1,4 +1,4 @@
-#Weather App
+# Weather App
 
 The Weather App is a simple web application that allows users to get weather information for a specific city. It uses the Weather API by API Ninjas to fetch weather data for the specified city.
 
