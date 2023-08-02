@@ -1,4 +1,4 @@
-**Weather App**
+#Weather App
 
 The Weather App is a simple web application that allows users to get weather information for a specific city. It uses the Weather API by API Ninjas to fetch weather data for the specified city.
 
@@ -17,7 +17,7 @@ You need to have the following installed on your machine:
 
 1. Clone the repository to your local machine:
    ```bash
-   git clone https://github.com/your-username/weather-app.git
+   git clone https://github.com/BismahMalik/weather-app.git
    cd weather-app
    
 Install the required dependencies:
@@ -36,7 +36,7 @@ The server will start running on **http://localhost:3000.**
 
 1. Open your web browser and go to **http://localhost:3000.**
 2. Enter the name of the city for which you want to get the weather information.
-3. Click the "Get Weather" button.
+3. Click the "Search" button.
 4. The app will fetch weather data for the specified city and display it on the page.
 
 **Architecture**
